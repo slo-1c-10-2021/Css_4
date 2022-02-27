@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Zagadki logiczne</title>
+<script>
+    function z1()
+    {
+        document.getElementById("z1").innerHTML="Trzeba rzucić je na większą odległość - na przykład na 3 metry, wtedy 2 metry przeleci w całości.";
+    }
+    function z2()
+    {
+        document.getElementById("z1").innerHTML="Tu znajdziesz odpowiedź";
+    }   
+</script>
+</head>
+<body>
+	<h2>Zagadki logiczne</h2> 
+	<h3>Druga zagadka logiczna:</h3>
+	<p>
+		Jak rzucone jajko może przelecieć 2 metry i się nie rozbić?
+	</p>
+	<input type="button" class="button_css" value="Zobacz odpowiedź" onclick="z1()">
+	</br></br>
+	<div id="z1">Tu znajdziesz odpowiedź</div>
+	</br>
+	<input type="button" class="button_css" value="Ukryj odpowiedź" onclick="z2()">
+	</br>
+	</br>
+	<a href="index.html"> <input type="button" class="button_css" value="Poprzednia zagadka" ></a>
+	</br>
+	<a href="z3.html"> <input type="button" class="button_css" value="Następna zagadka" ></a>
+</body>

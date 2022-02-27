@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Zagadki logiczne</title>
+<script>
+    function z1()
+    {
+        document.getElementById("z1").innerHTML="Grali partie nie z sobą, a z innymi graczami.";
+    }
+    function z2()
+    {
+        document.getElementById("z1").innerHTML="Tu znajdziesz odpowiedź";
+    }   
+</script>
+</head>
+<body>
+	<h2>Zagadki logiczne</h2> 
+	<h3>Pierwsza zagadka logiczna:</h3>
+	<p>
+		Dwoje graczy grało w szachy. Każdy z nich grał trzy partie i wygrał trzy razy. Jak to możliwe?
+	</p>
+	<input type="button" class="button_css" value="Zobacz odpowiedź" onclick="z1()">
+	</br></br>
+	<div id="z1">Tu znajdziesz odpowiedź</div>
+	</br>
+	<input type="button" class="button_css" value="Ukryj odpowiedź" onclick="z2()">
+	</br>
+	</br>
+	<a href="z2.html"> <input type="button" class="button_css" value="Następna zagadka"> </a>
+</body>
